@@ -10,6 +10,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  background-color: #8d8973;
 }
 
 .App {
@@ -17,6 +18,7 @@ body {
   padding: 1rem;
   border: 3px solid gold;
   border-radius: 10px;
+  background-color: #fffbe6;
 }
 
 header {
@@ -26,13 +28,8 @@ header {
   margin: 1.5rem 0;
 }
 
-.header__btn {
-  display: inline-block;
-  background: black;
-  color: aqua;
-  padding: 5px 10px;
-  margin: 0.2rem;
-  border-radius: 5px;
+.header {
+  color: #332b00;
 }
 
 form {
@@ -53,15 +50,15 @@ input {
 }
 
 .todo {
-  background: lightgreen;
+  background: gold;
   padding: 1.7rem;
   margin: 0.4rem 1.5rem;
   border-radius: 5px;
 }
 
 .todo.todo--completed {
-  background: lightcoral;
-  color: gray;
+  background: #8d8973;
+  color: rgb(233, 233, 233);
   text-decoration: line-through;
 }
 
@@ -80,20 +77,14 @@ input {
   visibility: visible;
 }
 
-@media screen and (min-width: 768px) {
-  body {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-  }
-
-  .App {
-    min-width: 500px;
-  }
+#btnAddTodo {
+  cursor: pointer;
+  background-color: #332b00;
+  color: gold;
+  border-radius: 5px;
 }
 
-@media screen and (min-width: 1536px) {
-  button {
-    cursor: pointer;
-  }
+#btnAddTodo:hover {
+  background-color: #665600;
+  color: gold;
 }
