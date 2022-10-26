@@ -9,7 +9,7 @@ body {
 }
 
 .App {
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 1rem;
   border: 3px solid gold;
   border-radius: 10px;
