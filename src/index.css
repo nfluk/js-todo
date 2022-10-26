@@ -77,6 +77,10 @@ input {
   visibility: visible;
 }
 
+#txtTodoItemToAdd {
+  border-radius: 5px;
+}
+
 #btnAddTodo {
   cursor: pointer;
   background-color: #332b00;
